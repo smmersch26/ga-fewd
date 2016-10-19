@@ -10,7 +10,7 @@ I'm REALLY learning about git now!
 
 How many galaxies in the universe?
 
-How many planets?
+How many planets? There are 9 planets in our solar system.
 
 WHOA
 
