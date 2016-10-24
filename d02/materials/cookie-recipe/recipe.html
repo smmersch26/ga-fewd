@@ -1,6 +1,10 @@
+<link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
 <style type="text/css">
+	*{
+		background-color:#ABDDED;
+	}
 	h1,h2,h4,table,p,ul,ol,a{
-		font-family: Helvetica;
+		font-family: "Rambla";
 	}
 	h1{
 		color: #000000;
@@ -20,14 +24,15 @@
 	}
 	table,th,td{
 		background-color: #75D989;
-		margin-left:465;
+		margin-left:405;
 		margin-top:40;
 		border:1px solid black;
-		padding:10px;
+		padding:30px;
 	}
 	p,h4{
 		margin-left:50;
 		margin-right: 50;
+		font-size:18px;
 	}
 	h1,h2,table,p{
 		text-align: center;
@@ -39,14 +44,31 @@
 	}
 	a:link,a:visited{
 		text-decoration:none;
-		color: #75D989;
+		color: #37870F;
 	}
 	a:hover{
 		color:hotpink;
 	}
 	ul,ol{
-		margin-left: 405;
-		margin-right: 405;
+		font-size:18px;
+	}
+
+	#container{
+		width:100%;
+		height:325px;
+		float: inline;
+	}
+	#right{
+		width:25%;
+		margin-right:0;
+		margin-left:0;
+		float:right;
+
+	}
+	#left{
+		width:75%;
+		margin:auto;
+		float:left;
 	}
 
 </style>
@@ -56,17 +78,19 @@
 <img src="file:///Users/smmersch26/ga-fewd/d02/materials/cookie-recipe/cookies.jpg" align="middle">
 
 <h4>Recipe by: Bonnie Owens</h4>
-
+<div id="container">
+<div id="right">
 <h2>Related Recipes</h2>
-<ul>
-	<li>Amazing Chocolate Chip Cookies!</li>
-	<li>Beer and Pretzel Chocolate Chip Cookies</li>
-	<li>Bisquick Chocolate Chip Cookies</li>
-	<li>Browned Butter and Coconut Chocolate Chip Cookies</li>
-	<li>Buttery Chocolate Chip Cookies</li>
-	<li><font color="D60B0B">Cherry</font> Chocolate Chip Cookies</li>
-</ul>
-
+	<ul>
+		<li>Amazing Chocolate Chip Cookies!</li>
+		<li>Beer and Pretzel Chocolate Chip Cookies</li>
+		<li>Bisquick Chocolate Chip Cookies</li>
+		<li>Browned Butter and Coconut Chocolate Chip Cookies</li>
+		<li>Buttery Chocolate Chip Cookies</li>
+		<li><font color="D60B0B">Cherry</font> Chocolate Chip Cookies</li>
+	</ul>
+</div>
+<div id="left">
 <table>
 	<tr>
 		<th>Prep Time</th>
@@ -79,11 +103,13 @@
 		<td>A lot</td>
 	</tr>
 </table>
+</div>
+</div>
 
 <br>
 
 <h2>Ingredients</h2>
-<ul>
+<ul style="padding-left:500">
 	<li><strong>1 1/2 cup</strong> (3 sticks) butter, softened</li>
 	<li><strong>1 cup</strong> brown sugar</li>
 	<li><strong>1 cup</strong> granulated sugar</li>
@@ -99,7 +125,7 @@
 </ul>
 
 <h2>How to make Mama's Recipe: The Best Chocolate Chip Cookies</h2>
-<ol>
+<ol style="padding-left:500;padding-right:405">
 	<li>Preheat oven to 350 degrees.</li>
 	<li>Beat butter and sugars together until light and fluffy.</li>
 	<li>Stir in pudding mix milk and vanilla extract.</li>
