@@ -1,0 +1,35 @@
+h1,h2,h3,p{
+	text-align:center;
+}
+
+h1{
+	color:#0088cb;
+	font-size:86px;
+}
+h2{
+	font-size:54px;
+}
+h3{
+	font-size:36px;
+}
+a{
+	text-decoration:none;
+	color:#ad1927;
+}
+.listtitle{
+	color:brown;
+}
+#matrix{
+	color:green;
+}
+#johnwick{
+	font-size:48px;
+	color:red;
+}
+#pointbreak{
+	color:blue;
+	font-size:24px;
+}
+.keanu{
+	font-size:68px;
+}
