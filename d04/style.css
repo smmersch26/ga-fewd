@@ -1,7 +1,7 @@
 h1{
 	color:purple;
 }
-h1,h2,p{
+h1,h2{
 	text-align:center;
 }
 #image{
@@ -16,5 +16,14 @@ p{
 	width:200px;
 	padding:100px;
 	border:50px;
-	margin:100px;
+	margin:0 auto;
+	text-align:center;
+}
+.tour-dates{
+	background-color:brown;
+	height:40px;
+	width:200px;
+	padding:50px;
+	text-align:center;
+	margin:0 auto;
 }
