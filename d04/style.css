@@ -1,0 +1,20 @@
+h1{
+	color:purple;
+}
+h1,h2,p{
+	text-align:center;
+}
+#image{
+	margin-left: 375px;
+}
+.shows{
+	color:red;
+}
+p{
+	background-color:blue;
+	height:125px;
+	width:200px;
+	padding:100px;
+	border:50px;
+	margin:100px;
+}
