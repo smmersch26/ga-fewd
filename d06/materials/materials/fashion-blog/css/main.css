@@ -1,4 +1,4 @@
-.main-container{
+#main-container{
 	margin:50px;
 	font-family:'Lato';
 	color:#444444;
@@ -7,7 +7,6 @@
 }
 
 h1{
-	color:#aa0000;
 	font-weight:300;
 	font-size:52px;
 	margin-bottom:0;
@@ -20,12 +19,12 @@ h2{
 	font-weight:300;
 	margin-top:0px;
 	margin-bottom:0px;
-	font-size:28px;
+	font-size:24px;
 	padding-top:0px;
 	padding-bottom:5px;
 }
 
-a{
+h1, a{
 	color:#dd0000;
 }
 
@@ -43,34 +42,36 @@ hr{
 
 .date{
 	color:#cccccc;
-	font-size:36px;
 }
 
 .title{
 	color:black;
+}
+
+.date, .title{
 	font-size:36px;
 }
 
-.copyright{
+#copyright{
 	color:#bbbbbb;
 }
 
-.top-nav{
+#top-nav{
 	margin-bottom:40px;
-	font-size:24px;
+	font-size:18px;
 }
 
-.top-nav a{
+#top-nav a{
 	color:#dddddd;
 	text-decoration:underline;
 	margin-right:10px;
 }
 
-.top-nav a:hover{
+#top-nav a:hover{
 	color:black;
 }
 
-.top-nav:hover{
+#top-nav:hover{
 	color:black;
 }
 
@@ -80,7 +81,7 @@ hr{
 	font-size:16px;
 }
 
-.bottom-nav a{
+#bottom-nav a{
 	font-size:18px;
 }
 
