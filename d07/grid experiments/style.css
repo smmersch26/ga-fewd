@@ -1,0 +1,12 @@
+.box, .middle{
+	background-color:grey;
+	margin-bottom:10px;
+}
+
+.box{
+	height:100px;
+}
+
+.middle{
+	height:400px;
+}

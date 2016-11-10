@@ -1,0 +1,9 @@
+.col-1-1, .col-9-12, .col-3-12{
+	background-color:grey;
+	margin:10px;
+}
+
+.col-1-1{
+	height:100px;
+	width:100%;
+}
