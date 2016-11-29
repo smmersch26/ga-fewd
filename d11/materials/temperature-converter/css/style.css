@@ -1,0 +1,28 @@
+*{
+	background-color:#73D631;
+}
+
+label{
+	display:block;
+	text-align:center;
+	margin-top:100px;
+}
+
+input{
+	background-color:#ffffff;
+}
+
+button{
+	background-color:#31C6D6;
+	color:#000000;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+p{
+	text-align:center;
+}
+
+label,p{
+	font-size:36px;
+}
