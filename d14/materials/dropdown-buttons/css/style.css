@@ -1,0 +1,45 @@
+.dropdown{
+	display:inline-block;
+}
+
+button{
+	width:100px;
+	height:50px;
+	font-size:16px;
+	background-color:#ffffff;
+	position:relative;
+	cursor: pointer;
+	border-style: solid;
+
+}
+
+button, .option{
+	border-radius:5px;
+}
+
+.option{
+	display:none;
+	background-color:#f1f1f1;
+	margin-top:5px;
+	width:125px;
+	box-shadow:2px 2px 2px black;
+	position:absolute;
+}
+
+option{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+
+option:hover{
+	background-color:red;
+}
+
+button:focus{
+	outline:0;
+	background-color:#f1f1f1;
+}
+button:hover{
+	background-color:#f1f1f1;
+}
