@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Ideal Image Slider Test</title>
+	<link rel="stylesheet" href="css/ideal-image-slider.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="slider">
+		<img src="img/1.jpg" alt="Yo">
+		<img src="img/2.jpg" alt="sup">
+		<img src="img/3.jpg" alt="cool">
+		<img src="img/4.jpg" alt="aight">
+	</div>
+
+	<script src="js/ideal-image-slider.js"></script>
+	<script>
+		var slider = new IdealImageSlider.Slider({
+    selector: '#slider',
+    interval: 1000,
+    keyboardNav: true
+});
+slider.start();
+	</script>
+</body>
+</html>
