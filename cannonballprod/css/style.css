@@ -1,0 +1,41 @@
+#logo{
+	width:100px;
+}
+
+nav{
+	text-align:right;
+	padding-top:35px;
+}
+
+.carousel-inner{
+	height:600px;
+}
+
+.carousel-inner img{
+	width:100%;
+	position:relative;
+}
+
+.navigation{
+	display:inline;
+}
+
+.nav-dropdown{
+	display:none;
+}
+
+.nav-dropdown a{
+	display:block;
+}
+
+.carousel-caption{
+	
+
+}
+
+.carousel-caption h3{
+	font-size:48px;
+	background-color:rgba(0,0,0,0.6);
+	padding-top:10px;
+	padding-bottom:10px;
+}
